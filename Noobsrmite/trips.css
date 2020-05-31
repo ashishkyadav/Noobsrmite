@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image: url(image/b1.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a
+{
+    float: right;
+    color: #fff!important;
+}
+.navbar-toggler{
+    border: none!important;
+    outline: none!important;
+}
+.nav-link:hover
+{font-size: 24px;
+    transition: all .5s;
+}
+
+.welcome
+{
+    padding: 50px 100px;
+    margin-top: -40px;
+    background-color: white;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: 100px;
+}
+.welcome h1{
+    color: #333;
+}
+
